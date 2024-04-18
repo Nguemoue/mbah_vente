@@ -1,7 +1,51 @@
 body {
+    font-family: Roboto, 'Nunito', sans-serif;
     padding-top: 5rem;
 }
 .starter-template {
     padding: 3rem 1.5rem;
     text-align: center;
+}
+/*custom datatable styles*/
+table.dataTable thead th {
+    border-bottom: none;
+}
+table.dataTable thead th {
+    border-bottom: none;
+}
+table.dataTable thead .sorting {
+    background: none;
+}
+table.dataTable thead .sorting_asc {
+    background: none;
+}
+table.dataTable thead .sorting_desc {
+    background: none;
+}
+table.dataTable thead .sorting_asc_disabled {
+    background: none;
+}
+table.dataTable thead .sorting_desc_disabled {
+    background: none;
+}
+table.dataTable tbody tr {
+    border-bottom: 1px solid #dee2e6;
+}
+table.dataTable tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+table.dataTable tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+table.dataTable tbody tr:hover {
+    background-color: #f1f1f1;
+}
+table.dataTable tbody tr.selected {
+    background-color: #f1f1f1;
+}
+table.dataTable tbody tr.selected:hover {
+    background-color: #f1f1f1;
+}
+table.dataTable tbody td {
+    border-bottom: none;
 }

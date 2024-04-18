@@ -43,6 +43,10 @@ return [
             'load-media-error-handling' => 'skip',
             'load-error-handling' => 'skip',
             'enable-plugins'=>true,
+            'margin-left'=>5,
+            'margin-top'=>2,
+            'margin-bottom'=>0,
+            'margin-right'=>5,
             'print-media-type'=>true
         ],
         'env' => [],
